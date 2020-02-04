@@ -118,6 +118,8 @@ h1 {
 
 /* droite*/
 
+.mail {}
+
 .droite {
     width: 40%;
     margin-right: 40px;
@@ -183,3 +185,32 @@ h1 {
 
 
 /* fin section */
+
+@media screen and (max-width:1400px) {
+    header {
+        width: 1400px;
+        height: 15%;
+        background-color: #4a69bd;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:900px) {
+    h1 {
+        font-size: small;
+    }
+    form {
+        width: 100px;
+    }
+    .droite {
+        margin-left: 100px;
+    }
+    form {
+        margin-right: 500px;
+    }
+    .signup {
+        font-size: 1em;
+    }
+}
